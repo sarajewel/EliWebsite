@@ -1,0 +1,44 @@
+body,
+
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: 'Gluten', cursive;
+    line-height: 2.5;
+    background-color: #691799;
+  
+  }
+  body{background-color: #691799;}
+  h1,h2,h3{color: #fcf7ff;}
+  table{color:#fcf7ff; font-size:xx-large; text-align: justify;}
+  h1,h3{
+    font-size: xx-large;
+    border-width: 12px;
+    border-style: dotted;
+    border-color: #db9eff;}
+  h4{color:#db9eff; font-size: xx-large;}
+  a:link{color: #e0abff;} 
+  a:visited{ color: #db9eff;}
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
